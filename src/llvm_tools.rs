@@ -85,6 +85,7 @@ pub fn profraws_to_lcov(
         "-f".as_ref(),
         "-".as_ref(),
         "-sparse".as_ref(),
+        "--failure-mode=all".as_ref(),
         "-o".as_ref(),
         profdata_path.as_ref(),
     ];
